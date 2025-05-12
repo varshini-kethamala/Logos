@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logo-row img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.logo-row img:hover {
+  transform: scale(1.1);
+}
